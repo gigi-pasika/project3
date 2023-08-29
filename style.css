@@ -1,0 +1,230 @@
+body{
+    
+    width: 100%;
+    overflow-x: hidden;
+}
+
+html {
+    margin: 0;
+    position: relative;
+    width: 100%;
+    
+}
+
+.navigation {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    top: 0;
+    left: 0;
+    gap: 500px;
+    background-color: aqua;
+    width: 100%;
+    z-index: 999;
+
+}
+
+ul {
+    display: flex;
+    gap: 50px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+    position: relative;
+    top: 50px;
+    left: -9px;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5ae55a26a2772c3020efb377/1558647089179-8JURZ98QV0H2GXYEMIW9/Red+Sunset+Acrylic+on+8x10+Canvas+2019.JPG?format=1000w");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    
+    margin: none;
+    
+}
+
+.header h1 {
+    font-size: 50px;
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: antiquewhite;
+    letter-spacing: 5px;
+}
+
+.header p {
+    font-size: larger;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: skyblue;
+}
+
+.header button {
+    box-shadow: 2px 3px 3px rgb(54, 54, 113) ;
+    border: 0.5px;
+    border-radius: 50px;
+    padding: 5px 5px;
+    
+    background: aquamarine;
+}
+
+.header button:hover{
+    
+    box-shadow: 2px 3px 3px rgb(54, 54, 113) inset ; 
+    background-color: rgba(130, 249, 209,  );
+    opacity: 0.7;
+    
+
+}
+
+.cards {
+    position: relative;
+    top: 10px;
+    left: -9px;
+    display: flex;
+    gap: 3px;
+    width: 100%;
+    background-color: rgb(56, 16, 16);
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card1 {
+    border: 0.1px solid black;
+    border-radius: 5%;
+    box-shadow: 2px 3px 5px;
+    height: fit-content;
+    padding: 2px;
+    background-color: bisque;
+    opacity: 0;
+}
+
+.card2 {
+    border: 0.1px solid black;
+    border-radius: 5%;
+    box-shadow: 2px 3px 5px;
+    height: fit-content;
+    padding: 2px;
+    background-color: rgb(155, 226, 161);
+    opacity: 0;
+}
+.card3 {
+    border: 0.1px solid black;
+    border-radius: 5%;
+    box-shadow: 2px 3px 5px;
+    height: fit-content;
+    padding: 2px;
+    background-color: rgb(206, 244, 244);
+    opacity: 0;
+}
+
+#shuffle{
+    position: relative;
+    bottom: 5px;
+    height: 50px;
+    box-shadow: 2px 3px 3px rgb(54, 54, 113) ;
+    border: 0.5px;
+    border-radius: 50px;
+    padding: 5px 5px;
+    
+    background: aquamarine;
+}
+
+.aboutUs {
+    position: relative;
+    width: 100%;
+    left: -10px;
+    top: 20px; 
+    height: 700px;
+    text-align: center;
+    background:linear-gradient(to right, #C6EA8D, #FE90AF) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+
+    
+}
+
+.aboutUs h1 {
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 20px;
+}
+
+.members {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    position: relative;
+    top: 150px;
+    left: -9px;
+    width: 100%;
+}
+.branch1 {
+    display: flex;
+    gap: 5px;
+    border: 1px solid black;
+    
+}
+
+img {
+    height: 318px;
+    width: 370;
+    object-fit: cover;
+}
+
+.member1,
+.member2,
+.member3{
+    display: flex;
+    justify-content: space-around;
+}
+
+.info h4 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.info h5 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: none;
+    position: relative;
+    bottom: 60px;
+}
+
+img:hover{
+  opacity: 0.8;  
+}
+
+a:hover {
+    color: crimson;
+}
+#shuffle:hover{
+    opacity: 0.8;
+    box-shadow: 2px 3px 3px purple inset;
+}
